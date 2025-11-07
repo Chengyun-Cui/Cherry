@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+    height: 100%;
+    font-size: 1rem;
+    background-color: var(--bg-body);
+    color:var(--text-body);
+}
+
+
+:root {
+    --bg-body: #FFF6F8;
+    --bg-footer: #991B36;
+    --bg-header: #991B36;
+    --bg-accordion: #FAD4D8;
+    --bg-accordion-summary: #D92B4C;
+    --bg-accordion-summary-hover: #B7203F;
+    --bg-card: #FAD4D8;
+    --bg-save-button: #B7203F;
+    --bg-save-button-hover: #D92B4C;
+    --bg-cancel-button: #8DB759;
+    --bg-cancel-button-hover: #A3C672;
+    --bg-edit-button: #B7203F;
+    --bg-edit-button-hover: #D92B4C;
+    --bg-gallery: #FFF0E9;
+    --bg-filter-button:#FFE1E8;
+    --bg-menu:#991B36;
+    --bg-dropdown-profile: #FAD4D8;
+    --bg-dropdown-menu-hover: #D92B4C;
+    --bg-modal:#FFF8F9;
+    --bg-register:#FBEAEC;
+    --bg-submit-button: #B7203F;
+    --bg-submit-button-hover: #D92B4C;
+    --bg-close-button:#B7203F;
+    --bg-close-button-hover: #D92B4C;
+    
+    
+    --text-body: #2B2B2B;
+    --text-footer:#FFFFFF;
+    --text-header: #F2F2F2;
+    --text-accordion-summary: #FFF8F9;
+    --text-save-button:#FFFFFF;
+    --text-cancel-button: #2B2B2B;
+    --text-edit-button: #FFF8F9;
+    --text--filter-button: #2B2B2B;
+    --text--modal:#2B2B2B;
+    
+    --link-card: #991B36;
+    --link-card-hover: #A3C672;
+    --link-profile:#991B36;
+    --link-profile-hover: #A3C672;
+    --link-dropdown: #FAD4D8;
+}
+
+[data-theme='dark'] {
+    --bg-body: #1E0F12;
+    --bg-footer: #3B1219;
+    --bg-header: #3B1219;
+    --bg-accordion: #2C1A1D;
+    --bg-accordion-summary: #7A1F2B;
+    --bg-accordion-summary-hover: #A32C3D;
+    --bg-card: #2C1A1D;
+    --bg-save-button: #A32C3D;
+    --bg-save-button-hover: #C2384C;
+    --bg-cancel-button: #6A8E4B;
+    --bg-cancel-button-hover: #8DB759;
+    --bg-edit-button: #A32C3D;
+    --bg-edit-button-hover: #C2384C;
+    --bg-gallery: #241416;
+    --bg-filter-button: #3F2225;
+    --bg-menu: #3B1219;
+    --bg-dropdown-profile: #2C1A1D;
+    --bg-dropdown-menu-hover: #A32C3D;
+    --bg-modal: #2C1A1D;
+    --bg-register: #2C1A1D;
+    --bg-submit-button: #A32C3D;
+    --bg-submit-button-hover: #C2384C;
+    --bg-close-button: #A32C3D;
+    --bg-close-button-hover: #C2384C;
+
+    --text-body: #F2E8E9;
+    --text-footer: #F2E8E9;
+    --text-header: #F2E8E9;
+    --text-accordion-summary: #FCEBEE;
+    --text-save-button: #FFFFFF;
+    --text-cancel-button: #F2E8E9;
+    --text-edit-button: #FFFFFF;
+    --text--filter-button: #F2E8E9;
+    --text--modal: #F2E8E9;
+
+    --link-card: #E8AAB7;
+    --link-card-hover: #A3C672;
+    --link-profile: #E8AAB7;
+    --link-profile-hover: #A3C672;
+    --link-dropdown: #E8AAB7;
+}

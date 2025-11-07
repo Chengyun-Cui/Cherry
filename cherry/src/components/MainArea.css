@@ -1,0 +1,12 @@
+.main {
+    grid-area: main;
+    padding: 1rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 12px;
+}

@@ -1,0 +1,30 @@
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.edit-button {
+  align-items: center; 
+  display: inline-flex;          
+  gap: 8px;                      
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background-color: var(--bg-edit-button);
+  color: var(--text-edit-button);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.edit-button:hover {
+  background-color: var(--bg-edit-button-hover);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.edit-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}

@@ -1,0 +1,17 @@
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    padding: 1rem;
+    background-color:var(--bg-footer);
+    color: var(--text-footer);
+}
+
+
+@media (max-width: 44rem) {
+  footer {
+    flex-direction: column;
+  }
+}

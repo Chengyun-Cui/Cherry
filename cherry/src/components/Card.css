@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--bg-card);
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 4px 8px rgba(217, 43, 76, 0.15);
+}
+
+.card img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.card a {
+    margin-top: auto;
+    color: var(--link-card);
+}
+
+.card a:hover {
+    font-weight: bold;
+    color: var(--link-card-hover);
+}

@@ -1,0 +1,84 @@
+.modal-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--bg-modal);
+  box-shadow:0 6px 16px rgba(217, 43, 76, 0.25);
+  color: var(--text--modal);
+  max-width: 90%;
+  width: 400px;
+  z-index: 1000;
+}
+
+.modal-dialog::backdrop {
+  background-color: rgba(0,0,0,0.5); 
+}
+
+.modal-form h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.modal-form label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-weight: bold;
+}
+
+.name-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #F2F2F2; 
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #FFFFFF;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.name-input:focus {
+  border-color: #D92B4C; 
+  box-shadow: 0 0 4px rgba(112, 28, 59, 0.4);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center; 
+  gap: 12px; 
+  margin-top: 1rem; 
+}
+
+.save-button {
+  background-color: var(--bg-save-button); 
+  color: var(--text-save-button);
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: var(--bg-save-button-hover); 
+}
+
+.cancel-button {
+  background-color: var(--bg-cancel-button); 
+  color: var(--text-cancel-button);
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cancel-button:hover {
+  background-color: var(--bg-cancel-button-hover) 
+}

@@ -1,0 +1,16 @@
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+  margin: 1rem 0.5rem;
+}
+
+.home-card {
+  grid-column: span 4;
+}
+
+@media (max-width: 44rem) {
+  .home-card {
+    grid-column:  2/ span 10;
+  }
+}

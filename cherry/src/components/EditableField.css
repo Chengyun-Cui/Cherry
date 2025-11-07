@@ -1,0 +1,76 @@
+.field-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.field-line span {
+  flex: 1;
+}
+
+.save-button {
+  background-color: var(--bg-save-button); 
+  color: var(--text-save-button);
+  padding: 0.5rem 1.2rem;
+  margin-left: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: var(--bg-save-button-hover); 
+}
+
+.cancel-button {
+  background-color: var(--bg-cancel-button); 
+  color: var(--text-cancel-button);
+  padding: 0.5rem 1.2rem;
+  margin-left: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cancel-button:hover {
+  background-color: var(--bg-cancel-button-hover); 
+}
+
+.alert {
+  color: red; 
+  margin-Left: 8px;
+}
+
+.pic-pre{
+  height: 40px;
+  width: 40px;
+}
+
+.edit-button {
+  align-items: center; 
+  display: inline-flex;          
+  gap: 8px;                      
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background-color: var(--bg-edit-button);
+  color: var(--text-edit-button);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.edit-button:hover {
+  background-color: var(--bg-edit-button-hover);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.edit-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}

@@ -1,0 +1,36 @@
+.gallery {
+    background-color: var(--bg-gallery); 
+    padding: 1rem;
+}
+
+.filter-button {
+    background-color: var(--bg-filter-button);
+    color: var(--text--filter-button);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-button:hover {
+    border-color: #D92B4C;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+}
+
+.gallery-card {
+    grid-column: span 3;
+}
+
+@media (max-width: 44rem) {
+    .gallery-card {
+        grid-column:  2/ span 10;
+    }
+}
